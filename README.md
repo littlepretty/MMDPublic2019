@@ -71,7 +71,7 @@ def pklDataPortion(X, Y, featureNames, pklname, portion=0.1):
 ```
 `train_samples.csv` is a data sample file smaller than 1% of the provided dataset (i.e., 4,000 rows only), and you can use it during your coding for debugging.
 
-## Feature Engineering (Optional, 0 Point)
+## Feature Engineering
 There are many ways to engineer features in the dataset before fitting a model with the dataset.
 In this project, we will use an informal way to get the importance of each raw features from decision-tree-based models.
 You can get a score of a feature's importance from most decision-tree-based ensemble models (e.g., RandomForestClassifier and GradientBoostingClassifier).
